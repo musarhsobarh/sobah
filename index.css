@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    background: gray;
+}
+
+nav ul{
+    display: flex;
+    
+}
+nav ul li{
+    padding: 14px 16px;
+    list-style: none;
+}
+nav ul li a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+header{
+    height: 400px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./img/1.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    
+}
+header h1 span{
+    font-size: 50px;
+    color: pink;
+    
+
+}
+.section1{
+    padding: 50px;
+}
+.section1 h2{
+    margin-bottom: 15px;
+    color: #606060;
+   
+}
+.section1 h2 span{
+    color: red;
+    font-weight: bold;
+}
+.section1 p{
+    line-height: 1.4;
+    color: gray;
+}
+.section2{
+    display: flex;
+}
+.section2 .col{
+    height: 350px;
+    width: 50%;
+   
+    
+}
+.col2{
+    background: url(./img/template4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.col1{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Services h2{
+    margin-bottom: 20px;
+}
+.column{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.column1{
+    width: 33%;
+    height: 350px;
+    background: url(./img/template2.1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.column2{
+    width: 33%;
+    height: 350px;
+    background: url(./img/template2.1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.column3{
+    width: 33%;
+    height: 350px;
+    background: url(./img/template2.1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* footer section */
+footer{
+    height: 550px;
+    background: black;
+    color: lightgray;
+    padding: 50px;
+}
+hr{
+    width: 200px;
+    margin-bottom: 20px;
+}
+.footerpartition{
+    display: flex;
+    justify-content: space-between;
+}
+.bio{
+    width: 45%;
+    height: 450px;
+}
+.socialMedia{
+    width: 45%;
+    height: 450px;
+
+}
+.bio p{
+    line-height: 1.4;
+}
+.copyright{
+    width: 50%;
+    margin: 0 auto;
+    
+}
+.copyright p{
+    text-align: center;
+
+}
+.copyright a{
+    text-decoration: none;
+    color: coral;
+}
+
+
+
+/* Midea quaries - Different devices view */
+@media screen and (max-width:600px) {
+
+    nav ul{
+        flex-direction: column;
+        text-align: center;
+        font-size: 20px;
+    }
+    header h1{
+        font-size: 40px;
+    }
+    .section2{
+        flex-direction: column;
+    }
+    .section2 .col{
+        width: 100%;
+        padding: 0 10px;
+ }
+ .section2 .col1{
+     background: lightblue;
+     width: 100%;
+ }
+
+    
+         
+}
